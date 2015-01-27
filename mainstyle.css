@@ -1,0 +1,343 @@
+body { 
+    margin: 10px;
+    padding: 0; 
+    font-family: "Georgia", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    background: #eee;
+}
+
+img {
+    -moz-border-radius: 8px; /* FF1+ */
+  	-webkit-border-radius: 8px; /* Saf3+, Chrome */
+    border-radius: 8px; /* Opera 10.5, IE 9 */
+    -webkit-box-shadow: 0 0 5px #eee;
+    padding: 2px;
+    border:none;
+}
+
+a {
+	outline: none;
+	text-color:black;	
+}
+
+
+.anchorlink{
+	text-transform: none;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	outline: none;	
+}
+
+
+#wrapper {
+    width: 960px;
+    height: 600px; 
+    margin: 0 auto;
+    background-image:url(images/mapbackground.jpg);
+    -moz-border-radius: 8px; /* FF1+ */
+  	-webkit-border-radius: 8px; /* Saf3+, Chrome */
+    border-radius: 8px; /* Opera 10.5, IE 9 */
+    -webkit-box-shadow: 0 0 30px #CCC;
+}
+
+#header {
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-top: 0;
+    width: 960px;
+}
+
+#header h3 {
+    font-weight: bold;
+    letter-spacing: 0px;
+    font-family: "Adobe Garamond Pro", serif;
+    font-size: 14pt;
+    text-shadow: 0px 1px 1px white;
+    text-decoration: none;
+    color: #888888;
+    margin-top: -34px;
+    text-align: right;
+}
+
+#intro {
+    font-family: "Goudy Old Style";
+    padding-bottom: 10px;
+}
+	
+h1 {
+    background-color: #999999;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Georgia;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 32pt;
+    margin-top: 10px;
+    padding: 0px;
+    text-align: left;
+}
+
+#line{
+	background-color:black;
+    margin:4em;
+}
+
+h2 {
+    margin-top: 2px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    font-size: 24pt;
+    padding: 0px;
+    font-family: "Adobe Garamond Pro", serif;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 0px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    font-size: 14pt;
+    font-family: "Adobe Garmond Pro", serif;
+    text-align: center;
+
+}
+
+h6 {
+    margin-top: -40px;
+    letter-spacing: 1px;
+    line-height: 2px;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    font-size: 7pt;
+    font-family: "Adobe Garmond Pro", serif;
+    text-align: right;
+    margin-right: 4px;
+
+}
+
+.orderbutton {
+	background-image:url(images/orderbutton.png);
+ 	-moz-border-radius: none;
+  	-webkit-border-radius: none;
+    border-radius: none;
+    -webkit-box-shadow: none;
+	width: 160px;
+	height: 25px;
+	float: right;
+	margin-right: 160px;
+	margin-top: 5px;
+	}
+	
+.price {
+	background-image:url(images/orderbutton.png);
+ 	-moz-border-radius: none;
+  	-webkit-border-radius: none;
+    border-radius: none;
+    -webkit-box-shadow: none;
+	width: 160px;
+	height: 25px;
+	float: right;
+	margin-right: 160px;
+	}	
+
+p {
+	font-size: 14pt;
+	width: 450px;
+	padding-top: 5px;
+	float: left;
+	margin-left: 40px;
+	font-family: "Century Gothic", "Arial", "Helvetica", sans-serif;
+}
+
+#ajax {
+	font-size: 10pt;
+	width: 450px;
+	padding-top: 5px;
+	float: left;
+	margin-left: 0px;
+	font-family: "Century Gothic", "Arial", "Helvetica", sans-serif;
+	color: black;
+}
+
+p1 {
+	font-size: 14pt;
+	width: 700px;
+	height: 120px;
+	padding: 10px;
+	float: left;
+	font-family: "Century Gothic", "Arial", "Helvetica", sans-serif;
+}
+
+#slider {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Georgia", serif;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.scroll {
+    font-family: Georgia, serif;
+    font-size: 14pt;
+    font-style: normal;
+    font-weight: normal;
+    height: 600px;
+    width: 960px;
+    overflow: auto;
+    overflow-x: hidden;
+    position: relative;
+    clear: left;
+    background: transparent;
+}
+
+.scrollContainer div.panel {
+    padding-top: 10px;
+    height: 600px;
+    width: 960px;
+}
+
+.closeups {
+	width: 850px;
+	height: 175px;
+	padding: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.closeups img{
+    -moz-border-radius:none ;
+  	-webkit-border-radius: none;
+    border-radius: none;
+    -webkit-box-shadow: none;
+    padding: none;
+    border: none;
+}
+
+.makingof {
+	width: 380px;
+	height: 175px;
+	padding: 20px;
+	padding-top: 40px;
+	float: right;
+	margin-right: 20px;
+}
+
+.makingof img{
+    -moz-border-radius:none ;
+  	-webkit-border-radius: none;
+    border-radius: none;
+    -webkit-box-shadow: none;
+    padding: none;
+    border: none;
+}
+
+.fulltimeline {
+	width: 375px;
+	float: right;
+	padding: 10px;
+	padding-bottom: 2px;
+	margin-right: 40px;
+	margin-top: -5px;
+	}
+	
+.fulltimeline img{
+    -moz-border-radius:none ;
+  	-webkit-border-radius: none;
+    border-radius: none;
+    -webkit-box-shadow: none;
+    padding: none;
+    border: none;
+}
+
+ul.navigation {
+    padding-left: 0px;
+    padding-right: 0px;
+    list-style: none;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+ul.navigation li {
+    border-style: hidden;
+    display: inline;
+}
+
+ul.navigation a {
+    font-weight: bold;
+    text-shadow: 0px 1px 1px white;
+    padding: 10px;
+    color: #999999;
+    text-decoration: none;
+}
+
+ul.navigation a:hover {
+	color: white;
+}
+
+ul.navigation a.selected {
+    font-weight: bold;   
+    color: black;              
+    font-weight: bold;
+}
+
+ul.navigation a:focus {
+    outline: none;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 350px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: -25px;
+}
+
+.scrollButtons.right {
+    right: -25px;
+}
+
+.hide {
+    display: none;
+}
+
+#footer {
+    margin-top: 0;
+    width: 960px;
+}
+
+#footer img{
+    margin-top: 0px;
+    float: right;
+    -moz-border-radius: none;
+  	-webkit-border-radius: none;
+    border-radius: none;
+    -webkit-box-shadow: none;
+    padding: none;
+}
+
+
+h5 {
+    font-weight: bold;
+    letter-spacing: 0px;
+    font-family: "Adobe Garamond Pro", serif;
+    font-size: 10pt;
+    text-shadow: 0px 1px 1px white;
+    text-decoration: none;
+    color: #888888;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 90px;
+    margin-top: -15px;
+    text-align: center;
+}  

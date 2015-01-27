@@ -1,0 +1,73 @@
+.override #googlecart-widget-head {
+    background:black;
+  }
+  .override #googlecart-title {
+    font-family: "Adobe Garamond Pro"; font-size: 14pt ; color: white; font-weight: normal;
+  }
+  .override #googlecart-summary {
+    font-family: "Adobe Garamond Pro";
+  }
+  .override #googlecart-widget-list {
+    font-family: "Adobe Garamond Pro"; color: black; font-size: 12pt;
+  }
+  .override .googlecart-widget-item {
+   font-family: "Adobe Garamond Pro"; color: black; font-size: 12pt;
+  }
+  .override .googlecart-widget-quantity-column {
+   font-family: "Adobe Garamond Pro"; color: white; font-size: 12pt;
+  }
+  .override .googlecart-widget-quantity-box {
+   font-family: "Adobe Garamond Pro"; color: black; font-size: 12pt;
+  }
+  .override .googlecart-widget-details-column {
+   font-family: "Adobe Garamond Pro"; color: black; font-size: 12pt;
+  }
+  .override .googlecart-widget-title {
+   font-family: "Adobe Garamond Pro"; color: black; font-size: 12pt;
+  }
+  .override .googlecart-widget-short-details {
+   font-family: "Adobe Garamond Pro"; color: black; font-size: 12pt;
+  }
+  .override .googlecart-widget-long-details {
+   font-family: "Adobe Garamond Pro"; color: black; font-size: 12pt;
+  }
+  .override .googlecart-widget-price {
+   font-family: "Adobe Garamond Pro"; color: black; font-size: 12pt;
+  }
+  .override .googlecart-widget-remove {
+   font-family: "Adobe Garamond Pro"; color: black; font-size: 12pt;
+  }
+  .override .googlecart-widget-restore {
+   font-family: "Adobe Garamond Pro"; color: black; font-size: 12pt;
+  }
+  .override .googlecart-widget-footertext {
+    font-family: "Adobe Garamond Pro"; color: black; font-size: 12pt;
+  }
+  .override .googlecart-widget-totalmessage {
+   font-family: "Adobe Garamond Pro"; color: black; font-size: 12pt;
+  }
+  .override .googlecart-widget-totalprice {
+    font-family: "Adobe Garamond Pro";
+  }
+  .override .googlecart-widget-disclaimer {
+    font-family: "Adobe Garamond Pro";
+  }
+
+.product{
+	padding-top: 10px;
+	border: none;
+}
+	
+.googlecart-add-button {
+	border: none;
+	float: right;
+	margin-right: 190px;
+	margin-top: 10px;
+}
+
+.googlecart-widget {
+	border: none;
+	float: right;
+	margin-right: 90px;
+	margin-top: 0px;
+}  
